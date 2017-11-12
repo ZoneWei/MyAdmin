@@ -35,7 +35,7 @@ export default new Router({
                 
                 {
                     path: '/upload',
-                    component: resolve => require(['../components/page/Upload.vue'], resolve)       // Vue-Core-Image-Upload组件
+                    component: resolve => require(['../components/page/Upload.vue'], resolve)      
                 },
                 
             ]
